@@ -1,0 +1,1074 @@
+[
+  {
+    "left": {
+      "name": "Synthetic Company 000",
+      "city": "Northfield",
+      "domain": "entity0.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-000",
+      "city": "Oldtown",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.5365853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 007",
+      "city": "Westhaven",
+      "domain": "entity7.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-007",
+      "city": "Oldtown",
+      "domain": "entity7.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 011",
+      "city": "Southport",
+      "domain": "entity11.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-011",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 014",
+      "city": "Southport",
+      "domain": "entity14.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-014",
+      "city": "Oldtown",
+      "domain": "entity14.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 021",
+      "city": "Northfield",
+      "domain": "entity21.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-021",
+      "city": "Oldtown",
+      "domain": "entity21.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.7858974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 022",
+      "city": "Westhaven",
+      "domain": "entity22.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-022",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 028",
+      "city": "Westhaven",
+      "domain": "entity28.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-028",
+      "city": "Oldtown",
+      "domain": "entity28.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 033",
+      "city": "Northfield",
+      "domain": "entity33.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-033",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.735897435897436,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 035",
+      "city": "Southport",
+      "domain": "entity35.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-035",
+      "city": "Oldtown",
+      "domain": "entity35.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 042",
+      "city": "Northfield",
+      "domain": "entity42.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-042",
+      "city": "Oldtown",
+      "domain": "entity42.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 044",
+      "city": "Southport",
+      "domain": "entity44.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-044",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 049",
+      "city": "Westhaven",
+      "domain": "entity49.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-049",
+      "city": "Oldtown",
+      "domain": "entity49.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 055",
+      "city": "Westhaven",
+      "domain": "entity55.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-055",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 056",
+      "city": "Southport",
+      "domain": "entity56.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-056",
+      "city": "Oldtown",
+      "domain": "entity56.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 063",
+      "city": "Northfield",
+      "domain": "entity63.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-063",
+      "city": "Oldtown",
+      "domain": "entity63.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.7858974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 066",
+      "city": "Northfield",
+      "domain": "entity66.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-066",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7365853658536585,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 070",
+      "city": "Westhaven",
+      "domain": "entity70.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-070",
+      "city": "Oldtown",
+      "domain": "entity70.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 077",
+      "city": "Southport",
+      "domain": "entity77.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-077",
+      "city": "Oldtown",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.55,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 084",
+      "city": "Northfield",
+      "domain": "entity84.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-084",
+      "city": "Oldtown",
+      "domain": "entity84.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 088",
+      "city": "Westhaven",
+      "domain": "entity88.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-088",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 091",
+      "city": "Westhaven",
+      "domain": "entity91.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-091",
+      "city": "Oldtown",
+      "domain": "entity91.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 098",
+      "city": "Southport",
+      "domain": "entity98.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-098",
+      "city": "Oldtown",
+      "domain": "entity98.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 099",
+      "city": "Northfield",
+      "domain": "entity99.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-099",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.735897435897436,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 105",
+      "city": "Northfield",
+      "domain": "entity105.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-105",
+      "city": "Oldtown",
+      "domain": "entity105.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.7858974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 110",
+      "city": "Southport",
+      "domain": "entity110.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-110",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 112",
+      "city": "Westhaven",
+      "domain": "entity112.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-112",
+      "city": "Oldtown",
+      "domain": "entity112.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 119",
+      "city": "Southport",
+      "domain": "entity119.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-119",
+      "city": "Oldtown",
+      "domain": "entity119.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 121",
+      "city": "Westhaven",
+      "domain": "entity121.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-121",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 126",
+      "city": "Northfield",
+      "domain": "entity126.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-126",
+      "city": "Oldtown",
+      "domain": "entity126.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 132",
+      "city": "Northfield",
+      "domain": "entity132.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-132",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7365853658536585,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 133",
+      "city": "Westhaven",
+      "domain": "entity133.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-133",
+      "city": "Oldtown",
+      "domain": "entity133.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 140",
+      "city": "Southport",
+      "domain": "entity140.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-140",
+      "city": "Oldtown",
+      "domain": "entity140.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 143",
+      "city": "Southport",
+      "domain": "entity143.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-143",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 147",
+      "city": "Northfield",
+      "domain": "entity147.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-147",
+      "city": "Oldtown",
+      "domain": "entity147.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.7858974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 154",
+      "city": "Westhaven",
+      "domain": "entity154.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-154",
+      "city": "Oldtown",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.55,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 161",
+      "city": "Southport",
+      "domain": "entity161.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-161",
+      "city": "Oldtown",
+      "domain": "entity161.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 165",
+      "city": "Northfield",
+      "domain": "entity165.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-165",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.735897435897436,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 168",
+      "city": "Northfield",
+      "domain": "entity168.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-168",
+      "city": "Oldtown",
+      "domain": "entity168.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 175",
+      "city": "Westhaven",
+      "domain": "entity175.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-175",
+      "city": "Oldtown",
+      "domain": "entity175.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 176",
+      "city": "Southport",
+      "domain": "entity176.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-176",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 182",
+      "city": "Southport",
+      "domain": "entity182.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-182",
+      "city": "Oldtown",
+      "domain": "entity182.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 187",
+      "city": "Westhaven",
+      "domain": "entity187.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-187",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 189",
+      "city": "Northfield",
+      "domain": "entity189.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-189",
+      "city": "Oldtown",
+      "domain": "entity189.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.7858974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 196",
+      "city": "Westhaven",
+      "domain": "entity196.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-196",
+      "city": "Oldtown",
+      "domain": "entity196.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 198",
+      "city": "Northfield",
+      "domain": "entity198.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-198",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7365853658536585,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 203",
+      "city": "Southport",
+      "domain": "entity203.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-203",
+      "city": "Oldtown",
+      "domain": "entity203.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 209",
+      "city": "Southport",
+      "domain": "entity209.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-209",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 210",
+      "city": "Northfield",
+      "domain": "entity210.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-210",
+      "city": "Oldtown",
+      "domain": "entity210.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 217",
+      "city": "Westhaven",
+      "domain": "entity217.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-217",
+      "city": "Oldtown",
+      "domain": "entity217.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 220",
+      "city": "Westhaven",
+      "domain": "entity220.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-220",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 224",
+      "city": "Southport",
+      "domain": "entity224.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-224",
+      "city": "Oldtown",
+      "domain": "entity224.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 231",
+      "city": "Northfield",
+      "domain": "entity231.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-231",
+      "city": "Oldtown",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.5358974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 238",
+      "city": "Westhaven",
+      "domain": "entity238.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-238",
+      "city": "Oldtown",
+      "domain": "entity238.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 242",
+      "city": "Southport",
+      "domain": "entity242.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-242",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 245",
+      "city": "Southport",
+      "domain": "entity245.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-245",
+      "city": "Oldtown",
+      "domain": "entity245.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 252",
+      "city": "Northfield",
+      "domain": "entity252.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-252",
+      "city": "Oldtown",
+      "domain": "entity252.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 253",
+      "city": "Westhaven",
+      "domain": "entity253.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-253",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 259",
+      "city": "Westhaven",
+      "domain": "entity259.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-259",
+      "city": "Oldtown",
+      "domain": "entity259.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 264",
+      "city": "Northfield",
+      "domain": "entity264.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-264",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7365853658536585,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 266",
+      "city": "Southport",
+      "domain": "entity266.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-266",
+      "city": "Oldtown",
+      "domain": "entity266.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 273",
+      "city": "Northfield",
+      "domain": "entity273.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-273",
+      "city": "Oldtown",
+      "domain": "entity273.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.7858974358974359,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 275",
+      "city": "Southport",
+      "domain": "entity275.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-275",
+      "city": "Southport",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 280",
+      "city": "Westhaven",
+      "domain": "entity280.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-280",
+      "city": "Oldtown",
+      "domain": "entity280.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 286",
+      "city": "Westhaven",
+      "domain": "entity286.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-COMPANY-286",
+      "city": "Westhaven",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.75,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 287",
+      "city": "Southport",
+      "domain": "entity287.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETIC-PERSON-287",
+      "city": "Oldtown",
+      "domain": "entity287.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.8,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Company 294",
+      "city": "Northfield",
+      "domain": "entity294.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-COMPANY-294",
+      "city": "Oldtown",
+      "domain": "entity294.example.invalid"
+    },
+    "match": true,
+    "kind": "company",
+    "score": 0.7865853658536586,
+    "error": "false-negative"
+  },
+  {
+    "left": {
+      "name": "Synthetic Person 297",
+      "city": "Northfield",
+      "domain": "entity297.example.invalid"
+    },
+    "right": {
+      "name": "SYNTHETC-PERSON-297",
+      "city": "Northfield",
+      "domain": "changed.example.invalid"
+    },
+    "match": true,
+    "kind": "person",
+    "score": 0.735897435897436,
+    "error": "false-negative"
+  }
+]

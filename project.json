@@ -1,0 +1,26 @@
+{
+  "id": "X4",
+  "name": "Entity matching quality harness",
+  "problem": "Match company/person records across messy sources, measure precision/recall, show tradeoffs.",
+  "results": [
+    [
+      "Labeled synthetic pairs",
+      "labeled_synthetic_pairs",
+      ""
+    ],
+    [
+      "Precision at threshold 0.9",
+      "precision",
+      ""
+    ],
+    [
+      "Recall at threshold 0.9",
+      "recall",
+      ""
+    ]
+  ],
+  "diagram": "SyntheticCompanyAndPersonPairs --> NormalizedSimilarity --> ThresholdSweep --> PRCurveAndErrors",
+  "limits": "All company/person records and domains are synthetic; no real PII. Labels are retained only for evaluation, not used by the matcher. Candidate pairs deliberately include similar names, changed domains, old cities and near-collision negatives. The fixed threshold is declared rather than optimized on this test set. evidence/precision-recall.svg and evidence/precision-recall.json show the full sweep; evidence/error-analysis.md exposes actual false positives/negatives. This pairwise harness does not claim scalable candidate generation, global entity resolution or calibrated match probabilities.",
+  "next": "Add independent synthetic distributions, blocking strategies and subgroup-specific error analysis.",
+  "status": "done"
+}

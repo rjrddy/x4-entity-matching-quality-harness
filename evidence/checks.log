@@ -1,0 +1,15 @@
+/Users/rajreddy/dev/outreach/projects/x4-entity-matching-quality-harness/.venv/bin/python -m ruff check src tests
+All checks passed!
+/Users/rajreddy/dev/outreach/projects/x4-entity-matching-quality-harness/.venv/bin/python -m ruff format --check src tests
+2 files already formatted
+/Users/rajreddy/dev/outreach/projects/x4-entity-matching-quality-harness/.venv/bin/python -m pytest -q
+..                                                                       [100%]
+2 passed in 0.42s
+/Users/rajreddy/dev/outreach/projects/x4-entity-matching-quality-harness/.venv/bin/python src/main.py > evidence/bench.json
+{
+  "labeled_synthetic_pairs": 600,
+  "threshold": 0.9,
+  "precision": 1.0,
+  "recall": 0.7766666666666666,
+  "error_count": 67
+}

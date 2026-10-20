@@ -1,19 +1,25 @@
 1. Match company/person records across messy sources, measure precision/recall, show tradeoffs.
 
 2. Result:
-   Acceptance: not measured  
-   Performance: not measured  
-   Correctness: not measured
+   Labeled synthetic pairs: 600  
+   Precision at threshold 0.9: 1.0  
+   Recall at threshold 0.9: 0.7766666666666666  
+
+   Measured with `make bench`: [raw results](evidence/bench.json), [command output](evidence/checks.log), [environment](evidence/environment.json).
 
 3. Architecture:
 ```mermaid
 flowchart LR
-    Specification --> AwaitingWaveApproval --> Implementation
+    SyntheticCompanyAndPersonPairs --> NormalizedSimilarity --> ThresholdSweep --> PRCurveAndErrors
 ```
 
 4. Run it:
-No runnable implementation yet. This is a planned Wave 3 project.
+```sh
+make setup
+make lint test bench
+make demo
+```
 
-5. Decisions and limits: Public repository reserved for independent work using public or synthetic data. Implementation has not started. No company affiliation or usage is claimed. Acceptance check: P/R curve; error-analysis table.
+5. Decisions and limits: All company/person records and domains are synthetic; no real PII. Labels are retained only for evaluation, not used by the matcher. Candidate pairs deliberately include similar names, changed domains, old cities and near-collision negatives. The fixed threshold is declared rather than optimized on this test set. evidence/precision-recall.svg and evidence/precision-recall.json show the full sweep; evidence/error-analysis.md exposes actual false positives/negatives. This pairwise harness does not claim scalable candidate generation, global entity resolution or calibrated match probabilities.
 
-6. Next: Implement after approval for Wave 3, then run and publish the required acceptance commands.
+6. Next: Add independent synthetic distributions, blocking strategies and subgroup-specific error analysis.
